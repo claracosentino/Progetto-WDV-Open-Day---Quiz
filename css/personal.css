@@ -1,0 +1,39 @@
+nav {
+    background-color: #303455;
+}
+.container-intro {
+    height: auto;
+    background-color: #303455;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    color: #f2f6fe;
+    margin-bottom: 0px;
+}
+
+#bentornato {
+    font-size: 1rem;
+}
+
+#nome {
+    font-size: 1.5rem;
+}
+
+.rounded-circle {
+    width: 60px;
+    margin-right: 1rem;
+}
+
+.testo {
+    display: flex;
+}
+
+.navbar {
+    padding-bottom: 1rem;
+    margin-top: -1px;
+}
