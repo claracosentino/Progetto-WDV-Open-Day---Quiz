@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Open Day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/personal.css">
@@ -27,7 +30,7 @@
                 </p>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg sticky-top px-1" id="navbar-ricerca">
+        <nav class="navbar navbar-expand-lg sticky-top px-1" id="navbar-ricerca sticky">
             <div class="container-fluid">
                 <form class="d-flex container-fluid" role="search">
                     <input class="form-control me-2 rounded-5" type="search" placeholder="Cerca quiz" aria-label="Search">
@@ -42,11 +45,94 @@
 
     <section class="nostri-quiz">
 
-        <div class="container">
+        <div class="container mt-5 d-flex flex-row nome-sezione align-items-baseline justify-content-between">
+            <h1>I nostri quiz</h1>
+            <p>Vedi tutti</p>
+        </div>
 
+        <div class="container mt-4">
+            <div class="card card-js rounded-3">
+                <div class="row g-0 align-items-center">
+                    <div class="col-3">
+                        <img src="/img/icona-js.png" class="img-fluid rounded-circle " alt="">
+                    </div>
+                    <div class="col-9 nome-materia">
+                        <p>Javascript</p>
+                    </div>
+
+                    <div class="col-9 offset-3 tot-quiz">
+                        <p class="pb-4">12 Quiz || Completati 0/12</p>
+                    </div>
+                </div>
+                <button type="button" class="btn-light col-3 align-self-end rounded-pill"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="card card-seo rounded-3">
+                <div class="row g-0 align-items-center">
+                    <div class="col-3">
+                        <img src="/img/icona-js.png" class="img-fluid rounded-circle " alt="">
+                    </div>
+                    <div class="col-9 nome-materia">
+                        <p>SEO</p>
+                    </div>
+
+                    <div class="col-9 offset-3 tot-quiz">
+                        <p class="pb-4">3 Quiz || Completati 1/3</p>
+                    </div>
+                </div>
+                <button type="button" class="btn-light col-3 align-self-end rounded-pill"><i class="bi bi-arrow-right"></i></button>
+            </div>
         </div>
 
     </section>
+
+    <section class="tuoi-quiz">
+
+        <div class="container mt-5 d-flex flex-row nome-sezione align-items-baseline justify-content-between">
+            <h1>I tuoi quiz</h1>
+            <p>Vedi tutti</p>
+        </div>
+
+        <div class="container mt-4">
+            <div class="card card-js rounded-3">
+                <div class="row g-0 align-items-center">
+                    <div class="col-3">
+                        <img src="/img/icona-js.png" class="img-fluid rounded-circle " alt="">
+                    </div>
+                    <div class="col-9 nome-materia">
+                        <p>Javascript</p>
+                    </div>
+
+                    <div class="col-9 offset-3 tot-quiz">
+                        <p class="pb-4">12 Quiz || Completati 0/12</p>
+                    </div>
+                </div>
+                <button type="button" class="btn-light col-3 align-self-end rounded-pill"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="card card-seo rounded-3">
+                <div class="row g-0 align-items-center">
+                    <div class="col-3">
+                        <img src="/img/icona-js.png" class="img-fluid rounded-circle " alt="">
+                    </div>
+                    <div class="col-9 nome-materia">
+                        <p>SEO</p>
+                    </div>
+
+                    <div class="col-9 offset-3 tot-quiz">
+                        <p class="pb-4">3 Quiz || Completati 1/3</p>
+                    </div>
+                </div>
+                <button type="button" class="btn-light col-3 align-self-end rounded-pill"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+
+    </section>
+
 
     <!-- ----------------------------- end of body ----------------------------- -->
     <script src="js/bootstrap.bundle.js"></script>
@@ -54,6 +140,7 @@
     <script>
         lazyload();
     </script>
+    <script src="js/personal.js"></script>
 </body>
 
 </html>
